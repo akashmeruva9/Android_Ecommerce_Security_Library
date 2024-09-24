@@ -13,7 +13,10 @@
         android:theme="@style/Theme.Android_Ecommerce_Security_Library"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".FraudDetectionExample"
+            android:exported="false" />
+        <activity
+            android:name=".PCI_DSS_Example"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
